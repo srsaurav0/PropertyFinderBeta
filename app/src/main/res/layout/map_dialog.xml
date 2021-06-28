@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/edit_text_border"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="8dp"
+                android:text='Press "SHOW" to see the address in map!'
+                android:textColor="@color/bold_grey"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/mapShowBtnId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:drawableLeft="@drawable/ic_baseline_map_24"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                android:text="Show"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/ultra_violet" />
+
+            <Button
+                android:id="@+id/callBtnId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginBottom="30dp"
+                android:drawableLeft="@drawable/ic_baseline_call_24"
+                android:paddingLeft="10dp"
+                android:paddingRight="30dp"
+                android:text="Call owner"
+                android:textColor="@color/white"
+                app:backgroundTint="@android:color/holo_green_dark" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
