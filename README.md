@@ -1,7 +1,7 @@
 This application can be used for adding property for renting and also finding property for renting.
 The screenshots are provided below.
 
-![1](https://github.com/user-attachments/assets/bc11d746-d7a8-49ea-8fe4-4b659762b854)
+<img src="https://github.com/user-attachments/assets/bc11d746-d7a8-49ea-8fe4-4b659762b854" alt="Image description" width="400"/>
 ![2](https://github.com/user-attachments/assets/189cd2ba-2ba6-42e6-94af-d58976b2cecb)
 ![3](https://github.com/user-attachments/assets/5e932c21-5bc2-4f4d-8939-30c6a43d7f0b)
 ![4](https://github.com/user-attachments/assets/2c54e65f-84fd-4888-bf0a-e3ff90519317)
